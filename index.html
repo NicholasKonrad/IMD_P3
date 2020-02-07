@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow: hidden;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project</title>
+    <!-- <script src="p5min.js" type="module"></script>
+    <script data-main="./requirejs_config" src="require.js" type="module"></script> -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' localhost:8080; script-src 'unsafe-inline' localhost:8080; media-src 'self'"> -->
+</head>
+<body style="width: 100vw; height: 100vh; border: none;">
+    <video id="video" controls="controls" autoplay="autoplay" muted="true">
+        <source src="drive.mp4" type="video/mp4" width="100vw" height="auto"/>
+    </video>
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="./index_sockets.js" type="module"></script>
+</html>
