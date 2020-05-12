@@ -1,0 +1,180 @@
+html {
+  overflow: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  border: none;
+  margin: 0;
+}
+
+#video {
+  position: absolute;
+  z-index: -1;
+  height: auto;
+  width: 100vw;
+  top: -35vh;
+  left: 0;
+}
+
+#dashboard {
+  position: absolute;
+  z-index: 0;
+  height: auto;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
+}
+
+#display_bg {
+  position: absolute;
+  z-index: 1;
+  height: auto;
+  width: 6.5vw;
+  bottom: 27vh;
+  left: 37.5vw;
+}
+
+#display_center {
+  position: absolute;
+  z-index: 2;
+  display: initial;
+  height: auto;
+  width: 5.5vw;
+  max-width: 5.5vw;
+  bottom: 40.5vh;
+  left: 38vw;
+}
+
+.center {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 2;
+}
+
+.lights {
+  position: absolute;
+  z-index: 2;
+  width: auto;
+  height: 10vh;
+  margin-left: 28%;
+  margin-top: -1.5vh;
+}
+
+#startbutton {
+  position: absolute;
+  z-index: 5;
+  width: 9vw;
+  height: 10vh;
+  margin-top: 15%;
+  margin-left: 45%;
+  font-size: 185%;
+  background-color: forestgreen;
+}
+
+#triangle {
+  display: none;
+}
+
+#speed_120 {
+  display: none;
+}
+
+#speed_100 {
+  display: none;
+}
+
+#speed_80 {
+  display: none;
+}
+
+#speed_50 {
+  display: none;
+}
+
+#speed_30 {
+  display: none;
+}
+
+#redlight {
+  display: none;
+}
+
+#greenlight {
+  display: none;
+}
+
+#triangle_cornered {
+  position: absolute;
+  z-index: 2;
+  display: none;
+  height: 2.4vh;
+  width: auto;
+  bottom: 40vh;
+  left: 37.8vw;
+}
+
+#brake {
+  position: absolute;
+  z-index: 2;
+  display: none;
+  height: auto;
+  width: 2vw;
+  bottom: 40vh;
+  left: 41.6vw;
+}
+
+#carcomm {
+  position: absolute;
+  z-index: 2;
+  display: none;
+  width: auto;
+  height: 2.3vh;
+  bottom: 27.5vh;
+  left: 39vw;
+}
+
+#speedpin {
+  position: absolute;
+  z-index: 1;
+  left: 47.5vw;
+  bottom: 26vh;
+  width: 7vw;
+  height: auto;
+  transform-origin: center;
+  transform: rotate(190deg);
+}
+
+#mediacenter {
+  position: absolute;
+  z-index: 2;
+  display: none;
+  background-color: rgb(4, 4, 5);
+  color: white;
+  width: 17vw;
+  max-width: 17vw;
+  height: 17vh;
+  max-height: 17vh;
+  right: 3.8vw;
+  bottom: 1vh;
+  transform: rotateX(10deg);
+  transform: rotateY(4deg);
+}
+
+@font-face {
+  font-family: "Noto";
+  src: url("./media/NotoSans-Regular.ttf");
+}
+
+.mediacentertext {
+  position: absolute;
+  z-index: 2;
+  display: none;
+  font-size: 12pt;
+  width: 100%;
+  font-family: "Noto";
+  text-align: center;
+  margin-top: 20%;
+}
