@@ -1,4 +1,2 @@
-# P3_Wilunfaelle
-
-Ich starte read_sockets.js in node.
-Die beiden anderen Dateien befinden sich im public Ordner, zusammen mit einem Video, das ich auf Gund der Größe nicht uploadden durfte.
+This project is supposed to run in combination with Arduino physical computing and sensors.
+A detailed setup can be viewed in the PDf file.
